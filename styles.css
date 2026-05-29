@@ -733,7 +733,12 @@ footer p { color: rgba(255,255,255,.72); }
     padding-bottom: 92px;
   }
 
+  .cinematic-hero .hero-copy {
+    order: 1;
+  }
+
   .hero-showcase {
+    order: 2;
     min-height: 460px;
   }
 
@@ -806,6 +811,7 @@ footer p { color: rgba(255,255,255,.72); }
   }
 
   .cinematic-hero .hero-copy {
+    order: 1;
     width: 100%;
   }
 
@@ -848,6 +854,7 @@ footer p { color: rgba(255,255,255,.72); }
   }
 
   .hero-showcase {
+    order: 2;
     display: grid;
     grid-template-columns: 1fr;
     gap: 12px;
